@@ -692,7 +692,7 @@
 }
 
 .work-assessment {
-  flex: 0 0 auto; /* Allow flexibility */
+  flex: 0 0 600px; /* Fixed width for assessment */
   background-color: #f5d2d7;
   border-radius: 16px;
   padding: 25px;
@@ -730,7 +730,7 @@
 
 .assessment-card {
   display: flex;
-  flex-direction: column; /* Align items in a column */
+  flex-direction: column; /* Align items in a row */
   align-items: flex-start; /* Align items to the start */
   gap: 10px; /* Space between image and text */
   width: 100%; /* Full width for the card */
@@ -1071,6 +1071,7 @@ input::placeholder, textarea::placeholder {
 .text-wrapper-8 {
   text-align: center; /* Center text */
 }
+/* 1024 */
 
 /* Responsive Styles */
 @media (max-width: 768px) {
@@ -1153,6 +1154,7 @@ input::placeholder, textarea::placeholder {
   align-items: center;
   padding: 40px 20px; /* Padding for spacing */
   background-color: #f8f8f8; /* Background color */
+  overflow: hidden; /* Prevent horizontal scrolling */
 }
 
 .footer-content {
@@ -1173,14 +1175,17 @@ input::placeholder, textarea::placeholder {
   font-family: "Poppins", Helvetica;
   font-weight: 400;
   color: #17191c;
-  font-size: 18px;
+  font-size: 1.5vw; /* Responsive font size */
   line-height: 1.5; /* Improved line height */
   margin: 20px 0; /* Margin for spacing */
   overflow-wrap: break-word; /* Prevent overflow */
+  max-width: 100%; /* Prevent overflow */
+  overflow: hidden; /* Hide overflow */
 }
 
 .footer-links {
   display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
   justify-content: space-between;
   width: 100%;
 }
@@ -1188,7 +1193,10 @@ input::placeholder, textarea::placeholder {
 .footer-section {
   display: flex;
   flex-direction: column;
-  margin-right: 40px; /* Space between sections */
+  margin-right: 20px; /* Space between sections */
+  flex-basis: 30%; /* Control width of each section */
+  max-width: 30%; /* Prevent overflow */
+  overflow: hidden; /* Hide overflow */
 }
 
 .text-wrapper-27 {
@@ -1253,12 +1261,16 @@ input::placeholder, textarea::placeholder {
   }
 
   .we-provide-a-range {
-    text-align: center; /* Center text */
-    width: 100%; /* Full width */
-    max-width: 88%; /* Limit max width to prevent overflow */
+    font-family: "Poppins", Helvetica;
+    font-weight: 400;
+    color: #17191c;
+    font-size: 12px; /* Responsive font size */
+    line-height: 1.5; /* Improved line height */
+    margin: 20px 0; /* Margin for spacing */
     overflow-wrap: break-word; /* Prevent overflow */
-    margin: 0 0 25px 0; /* Add margin for spacing */
-    font-size: 15px; /* Adjust font size for better readability */
+    max-width: 90%; /* Increase max width to allow more space */
+    overflow: hidden; /* Hide overflow */
+    text-align: justify; /* Justify text for better alignment */
   }
 
   .footer-links {

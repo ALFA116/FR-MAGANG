@@ -190,67 +190,76 @@
 
     <!-- TAMPILAN WORK WITH US -->
     <section id="work" class="work-section">
-      <div class="work-container">
-        <div class="work-text">
-          <div class="text-wrapper-21">WORK WITH US</div>
-          <div class="collaboration-for">Collaboration <br />for New Invention</div>
-          <p class="text-wrapper-22">
-            What We Do<br />PT. Meissa Berkah Teknologi is a specialist company<br>
-            that delivers telecommunication services under the brand First<br>
-            Routes.The company is established in 2014 by a team of energetic and
-            experienced telecoms professionals that aim to deliver effective and efficient telecommunication
-            services.
-          </p>
-        </div>
-        <div class="work-assessment">
-          <div class="assessment-card">
-            <img class="image-2" src="../assets/img/image-10.png" />
-            <div class="text-wrapper-24">UI/UX Design</div>
-            <p class="text-wrapper-25">
-              Antarmuka sangat intuitif dan mudah dipahami oleh pengguna baru. Tugas-tugas utama dapat
-              diselesaikan dengan cepat dan efisien.
+      <div class="col">
+        <div class="work-container">
+          <div class="work-text">
+            <div class="text-wrapper-21">WORK WITH US</div>
+            <div class="collaboration-for">Collaboration <br />for New Invention</div>
+            <p class="text-wrapper-22">
+              What We Do<br />PT. Meissa Berkah Teknologi is a specialist company<br>
+              that delivers telecommunication services under the brand First<br>
+              Routes.The company is established in 2014 by a team of energetic and
+              experienced telecoms professionals that aim to deliver effective and efficient telecommunication
+              services.
             </p>
-            <div class="assessment-info">
-              <div class="text-wrapper-23">[ Best Service ]</div>
-              <img class="frame-33" src="../assets/img/frame-119.svg" />
+          </div>
+          <div class="work-assessment">
+            <div class="assessment-card">
+              <img class="image-2" src="../assets/img/image-10.png" />
+              <div class="text-wrapper-24">UI/UX Design</div>
+              <p class="text-wrapper-25">
+                Antarmuka sangat intuitif dan mudah dipahami oleh pengguna baru. Tugas-tugas utama dapat
+                diselesaikan dengan cepat dan efisien.
+              </p>
+              <div class="assessment-info">
+                <div class="text-wrapper-23">[ Best Service ]</div>
+                <img class="frame-33" src="../assets/img/frame-119.svg" />
+              </div>
+              <div class="frame-24">
+                <div class="group-6"><img class="frame-35" src="../assets/img/frame-8.svg" /></div>
+                <div class="group-7"><img class="frame-35" src="../assets/img/frame-9.svg" /></div>
+              </div>
             </div>
-            <div class="frame-24">
-              <div class="group-6"><img class="frame-35" src="../assets/img/frame-8.svg" /></div>
-              <div class="group-7"><img class="frame-35" src="../assets/img/frame-9.svg" /></div>
+          </div>
+        </div>
+        <div class="row">
+          <div class="col">
+
+            <div class="work-stats">
+              <div class="stat-item">
+                <img class="image-3" src="../assets/img/image-11.png" />
+                <div class="stat-info">
+                  <div class="text-wrapper-24">12+</div>
+                  <p class="text-wrapper-26">Telco Carriers and ISP Partners</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <img class="image-3" src="../assets/img/image-12.png" />
+                <div class="stat-info">
+                  <div class="text-wrapper-24">120+</div>
+                  <p class="text-wrapper-26">Project Done</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <img class="image-3" src="../assets/img/image-13.png" />
+                <div class="stat-info">
+                  <div class="text-wrapper-24">90+</div>
+                  <p class="text-wrapper-26">Corporate Clients</p>
+                </div>
+              </div>
+              <div class="stat-item">
+                <img class="image-3" src="../assets/img/image-14.png" />
+                <div class="stat-info">
+                  <div class="text-wrapper-24">0+</div>
+                  <p class="text-wrapper-26">Pending Project</p>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-      <div class="work-stats">
-        <div class="stat-item">
-          <img class="image-3" src="../assets/img/image-11.png" />
-          <div class="stat-info">
-            <div class="text-wrapper-24">12+</div>
-            <p class="text-wrapper-26">Telco Carriers and ISP Partners</p>
-          </div>
-        </div>
-        <div class="stat-item">
-          <img class="image-3" src="../assets/img/image-12.png" />
-          <div class="stat-info">
-            <div class="text-wrapper-24">120+</div>
-            <p class="text-wrapper-26">Project Done</p>
-          </div>
-        </div>
-        <div class="stat-item">
-          <img class="image-3" src="../assets/img/image-13.png" />
-          <div class="stat-info">
-            <div class="text-wrapper-24">90+</div>
-            <p class="text-wrapper-26">Corporate Clients</p>
-          </div>
-        </div>
-        <div class="stat-item">
-          <img class="image-3" src="../assets/img/image-14.png" />
-          <div class="stat-info">
-            <div class="text-wrapper-24">0+</div>
-            <p class="text-wrapper-26">Pending Project</p>
-          </div>
-        </div>
-      </div>
+
+
     </section>
 
     <!-- Tampilan Our Contact -->
@@ -321,56 +330,56 @@
 
     <!-- Tampilan Footer -->
     <section>
-    <div class="footer">
-      <div class="footer-content">
-        <img class="image-4" src="../assets/img/image-6-1.png" alt="Logo" />
-        <div class="footer-info">
-          <p class="we-provide-a-range">
-            We provide a range of IT and telecommunication services consisting of telecomm consultancy, SIP Trunk
-            provider, Call Center Solution, LAN Setup.<br />We do the concept, technical design, and implementation
-            that fits customers&#39; need both effective cost-efficient.
-          </p>
-          <div class="footer-links">
-            <div class="footer-section">
-              <div class="text-wrapper-27">Service</div>
-              <div class="frame-6">
-                <div class="text-wrapper-28">Our Work</div>
-                <div class="text-wrapper-29">Our Solutions</div>
+      <div class="footer">
+        <div class="footer-content">
+          <img class="image-4" src="../assets/img/image-6-1.png" alt="Logo" />
+          <div class="footer-info">
+            <p class="we-provide-a-range">
+              We provide a range of IT and telecommunication services consisting of telecomm consultancy, SIP Trunk
+              provider, Call Center Solution, LAN Setup.<br />We do the concept, technical design, and implementation
+              that fits customers&#39; need both effective cost-efficient.
+            </p>
+            <div class="footer-links">
+              <div class="footer-section">
+                <div class="text-wrapper-27">Service</div>
+                <div class="frame-6">
+                  <div class="text-wrapper-28">Our Work</div>
+                  <div class="text-wrapper-29">Our Solutions</div>
+                </div>
               </div>
-            </div>
-            <div class="footer-section">
-              <div class="text-wrapper-27">About Us</div>
-              <div class="frame-6">
-                <div class="text-wrapper-28">Overview</div>
-                <div class="text-wrapper-29">About</div>
-                <div class="text-wrapper-29">Awards &amp; Recognitions</div>
-                <div class="text-wrapper-29">Contact Team</div>
+              <div class="footer-section">
+                <div class="text-wrapper-27">About Us</div>
+                <div class="frame-6">
+                  <div class="text-wrapper-28">Overview</div>
+                  <div class="text-wrapper-29">About</div>
+                  <div class="text-wrapper-29">Awards &amp; Recognitions</div>
+                  <div class="text-wrapper-29">Contact Team</div>
+                </div>
               </div>
-            </div>
-            <div class="footer-section">
-              <div class="text-wrapper-27">PT. Meissa Berkah Teknologi</div>
-              <div class="frame-6">
-                <p class="text-wrapper-30">Jl. Guntur No.20C, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514</p>
-                <div class="text-wrapper-22">+6285972510714</div>
+              <div class="footer-section">
+                <div class="text-wrapper-27">PT. Meissa Berkah Teknologi</div>
+                <div class="frame-6">
+                  <p class="text-wrapper-30">Jl. Guntur No.20C, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514</p>
+                  <div class="text-wrapper-22">+6285972510714</div>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <!-- TAMPILAN FOOTER MENGAMBANG -->
-      <img class="group-8" src="../assets/img/group-78.png" alt="Group" />
-      <div class="footer-bottom">
-        <p class="text-wrapper-31">Copyright@2024. First-Routes Web Team All Rights Reserved.</p>
-        <div class="social-icons">
-          <img class="frame-46" src="../assets/img/frame-10.svg" alt="Icon 1" />
-          <img class="frame-46" src="../assets/img/frame-11.svg" alt="Icon 2" />
-          <img class="frame-46" src="../assets/img/frame-12.svg" alt="Icon 3" />
-          <img class="frame-46" src="../assets/img/frame-13.svg" alt="Icon 4" />
+        <!-- TAMPILAN FOOTER MENGAMBANG -->
+        <img class="group-8" src="../assets/img/group-78.png" alt="Group" />
+        <div class="footer-bottom">
+          <p class="text-wrapper-31">Copyright@2024. First-Routes Web Team All Rights Reserved.</p>
+          <div class="social-icons">
+            <img class="frame-46" src="../assets/img/frame-10.svg" alt="Icon 1" />
+            <img class="frame-46" src="../assets/img/frame-11.svg" alt="Icon 2" />
+            <img class="frame-46" src="../assets/img/frame-12.svg" alt="Icon 3" />
+            <img class="frame-46" src="../assets/img/frame-13.svg" alt="Icon 4" />
+          </div>
+          <div class="text-wrapper-32">Akun media sosial kami</div>
         </div>
-        <div class="text-wrapper-32">Akun media sosial kami</div>
       </div>
-    </div>
     </section>
 
 
@@ -397,6 +406,8 @@
           modal.style.display = "none"; // Hide the modal if clicked outside
         }
       });
+
+     
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
