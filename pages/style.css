@@ -1,0 +1,1336 @@
+.home-pri {
+  height: auto;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  line-height: 1.6;
+  scroll-behavior: smooth;
+  width: 100%;
+  
+
+  /* Responsive Font Scaling */
+  @media (max-width: 1640px) {
+    html {
+      font-size: 16px; /* Slightly smaller font on medium devices */
+    }
+  }
+
+  @media (max-width: 1200px) {
+    html {
+      font-size: 15px; /* Slightly smaller font on medium devices */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    html {
+      font-size: 14px; /* Adjust for tablets */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    html {
+      font-size: 13px; /* Adjust for mobile devices */
+    }
+  }
+}
+
+/* Our Journey Section */
+#our-journey .image-column {
+  display: flex;
+  flex-wrap: wrap; /* Allow items to wrap */
+}
+
+/* About Us Section */
+#about-us .container-3 {
+  margin-bottom: 60px; /* Space between sections */
+}
+
+#work {
+  margin-bottom: 85px; /* Adjust this value for desired spacing */
+}
+
+/* Tampilan Home */
+.home .image-9 {
+  background: url('../assets/images/logo-fr.png') 50% / cover no-repeat;
+  width: 54px;
+  height: 60px;
+  
+}
+
+.home .container-6 {
+  background: linear-gradient(90deg, #CF2039, #DC3545); /* Gradient background */
+  display: flex;
+  justify-content: center; /* Center items */
+  align-items: center; /* Center items vertically */
+  padding: 15px 30px; /* Add padding for better spacing */
+  border-radius: 8px; /* Rounded corners */
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  width: 640px; /* Full width */
+  height: 40px;
+}
+
+.home .navbar-item {
+  margin: 0 15px; /* Consistent margin for spacing */
+  display: inline-block;
+  overflow-wrap: break-word;
+  font-family: 'Inter', sans-serif; /* Use a consistent font */
+  font-weight: 400;
+  font-size: 14px;
+  color: #FFFFFF; /* Default text color */
+  transition: color 0.3s; /* Smooth color transition */
+}
+
+.home .navbar-item a {
+  color: inherit; /* Inherit color from parent */
+  text-decoration: none; /* Remove underline */
+}
+
+.home .navbar-item a:hover {
+  color: #000000; /* Change color on hover */
+}
+
+/* Specific styles for the Home item */
+.home .home-1 {
+  color: #438697; /* Highlight color for Home */
+}
+
+.home .container-8 {
+  margin-bottom: 90px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+.home .your-consultancy-partner-for-growth {
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 700;
+  font-size: 68px;
+  color: #000000;
+}
+.home .find-solutions-and-work-fast-implementing-idea-let-us-manage-your-it-infrastructure-stop-doing-works-that-arent-your-core-businesses {
+  margin-bottom: 50px;
+  display: inline-block;
+  align-self: flex-start;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 24px;
+  color: #000000;
+}
+.home .contohgmail-com {
+  margin: 7px 12px 7px 0;
+  display: inline-block;
+  width: 159px;
+  height: 26px;
+  overflow-wrap: break-word;
+  font-family: 'Poppins';
+  font-weight: 400;
+  font-size: 16px;
+  color: #000000;
+}
+.home .email-1 {
+  color: #FFF;
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 600;
+  width: 40px;
+  height: 21px;
+}
+.home .group-86 {
+  border-radius: 50px;
+  background: #DC3545;
+  position: relative;
+  height: 38px;
+  padding: 0; /* Remove padding to center text */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+  width: 80px;
+  box-sizing: border-box;
+}
+.home .group-88 {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50px;
+  background: #FFFFFF;
+  position: relative;
+  height: 52px;
+  margin-bottom: 55px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-self: flex-start;
+  padding: 7px 7px 7px 24px;
+  width: 500px;
+  box-sizing: border-box;
+}
+.home .group-81 {
+  margin-right: 16px;
+  width: 34px;
+  height: 34px;
+}
+.home .group-82 {
+  width: 34px;
+  height: 34px;
+}
+.home .group-83 {
+  margin: 7px 0;
+  display: flex;
+  flex-direction: row;
+  width: 84px;
+  height: fit-content;
+  box-sizing: border-box;
+}
+.home .vector-15 {
+  width: 20px;
+  height: 20px;
+}
+.home .frame-14 {
+  display: flex;
+  width: 24px;
+  height: 24px;
+  box-sizing: border-box;
+}
+.home .group-84 {
+  box-shadow: 0px 2px 8px 0px rgba(0, 0, 0, 0.25);
+  border-radius: 50px 0 0 50px;
+  background: #28A745;
+  position: relative;
+  display: flex;
+  padding: 14px 20px;
+  width: 60px;
+  height: 48px;
+  box-sizing: border-box;
+}
+.home .container-9 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+.home .container-1 {
+  background: url('../assets/images/rectangle_61.png') 50% / cover no-repeat;
+  position: relative; /* Change to relative */
+  display: flex;
+  flex-direction: column;
+  padding: 26px 0 0 100px;
+  width: 100%;
+  height: 780px;
+  box-sizing: border-box;
+}
+/* Dropdown styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 4px;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  font-size: 14px;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropbtn:hover .dropdown-content {
+  display: block;
+}
+
+.arrow-down {
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.dropbtn:hover .arrow-down {
+  transform: rotate(180deg);
+}
+
+@media (max-width: 768px) {
+  .home .container-1 {
+    padding: 20px; /* Adjust padding for smaller screens */
+    height: auto; /* Allow height to adjust based on content */
+  }
+
+  .home .navbar-item {
+    margin: 0 5px; /* Reduce margin for smaller screens */
+    font-size: 12px; /* Smaller font size for mobile */
+  }
+
+  .home .image-9 {
+    margin: 10px 0; /* Add margin to separate logo from navbar */
+  }
+
+  .home .your-consultancy-partner-for-growth {
+    font-size: 40px; /* Adjusted font size for mobile */
+  }
+
+  .home .find-solutions-and-work-fast-implementing-idea-let-us-manage-your-it-infrastructure-stop-doing-works-that-arent-your-core-businesses {
+    font-size: 18px; /* Adjusted font size for mobile */
+  }
+
+  .home .contohgmail-com {
+    font-size: 14px; /* Adjusted font size for mobile */
+    width: auto; /* Allow width to adjust */
+  }
+
+  .home .group-88 {
+    flex-direction: row; /* Align items in a row */
+    justify-content: space-between; /* Space out items */
+    width: 100%; /* Full width for the group */
+  }
+
+  .home .group-84 {
+    width: auto; /* Adjust width for buttons */
+  }
+
+  .home .group-86 {
+    width: auto; /* Adjust width for email button */
+    padding: 5px 10px; /* Adjust padding for better appearance */
+  }
+
+  .home .group-86 .email-1 {
+    font-size: 12px; /* Smaller font size for email button */
+  }
+
+  .home .group-86 {
+    height: 30px; /* Adjust height for email button */
+  }
+
+  .home .group-84 {
+    height: 30px; /* Adjust height for WhatsApp button */
+  }
+
+  .home .group-84 img {
+    width: 20px; /* Reduce size of WhatsApp icon */
+    height: auto; /* Maintain aspect ratio */
+  }
+}
+
+@media (max-width: 480px) {
+  .home .your-consultancy-partner-for-growth {
+    font-size: 30px; /* Further adjust font size for smaller mobile */
+  }
+
+  .home .find-solutions-and-work-fast-implementing-idea-let-us-manage-your-it-infrastructure-stop-doing-works-that-arent-your-core-businesses {
+    font-size: 16px; /* Further adjust font size for smaller mobile */
+  }
+
+  .home .contohgmail-com {
+    font-size: 12px; /* Further adjust font size for smaller mobile */
+  }
+}
+/* AKHIR HOME */
+
+/* TAMPILAN OUR JOURNEY */
+.home .container-2 {
+  position: relative;
+  width: 100%;
+  height: auto;
+  background-image: url('../assets/img/image.png');
+  background-size: cover;
+  background-position: 50% 50%;
+  padding: 50px 0;
+  z-index: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.text-column {
+  flex: 1;
+  padding: 20px;
+  margin-top: 50px;
+  color: #ffffff; /* Adjust text color */
+  margin-left: 80px; /* Adjust margin to bring closer */
+}
+
+.image-column {
+  flex: 2; /* Adjust the width of the image column */
+  margin-top: 50px;
+}
+
+.home .text-wrapper-14 {
+  font-weight: 800;
+  color: #ffffff;
+  font-size: 52px;
+  font-family: "Poppins", Helvetica;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 20px;
+}
+
+.home .text-wrapper-15 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 32px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 60px;
+}
+
+.home .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start; /* Align images to the left */
+  max-width: 100%; /* Ensure full width */
+}
+
+.home .col-md-2 {
+  flex: 0 0 18%; /* Adjusted to make images smaller */
+  max-width: 18%; /* Adjusted to make images smaller */
+  padding: 10px;
+}
+
+.home .img-fluid {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+}
+
+.home .text-wrapper-16 {
+  font-size: 14px;
+  text-align: center;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #17191c;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-top: 15px;
+}
+
+/* Media Queries for Small Screens */
+@media (max-width: 768px) {
+  .home .text-wrapper-14 {
+    font-size: 60px; /* Enlarged font size for mobile */
+  }
+
+  .home .text-wrapper-15 {
+    font-size: 36px; /* Enlarged font size for mobile */
+  }
+
+  .home .col-md-2 {
+    flex: 0 0 50%; /* Two images per row */
+    max-width: 50%; /* Two images per row */
+  }
+}
+
+@media (max-width: 480px) {
+  .home .text-wrapper-14 {
+    font-size: 50px; /* Adjusted font size for smaller mobile */
+  }
+
+  .home .text-wrapper-15 {
+    font-size: 28px; /* Adjusted font size for smaller mobile */
+  }
+
+  .home .col-md-2 {
+    flex: 0 0 100%; /* Full width for images on smaller mobile */
+    max-width: 100%; /* Full width for images on smaller mobile */
+  }
+}
+
+/* TAMPILAN ABOUT US */
+.home .container-3.frame-21 {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 1310px;
+  height: auto;
+  align-items: center;
+  justify-content: center;
+  gap: 60px;
+  position: relative; /* Changed from absolute to relative */
+  background-color: #e8e8e8;
+  border-radius: 16px;
+  padding: 40px; /* Added padding for better spacing */
+  margin: 60px auto; /* Center the section and add space above and below */
+}
+
+.home .container-3.frame-22 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 40px; /* Adjusted gap for better spacing */
+  position: relative;
+  align-self: stretch;
+  width: 100%;
+}
+
+.home .container-3.frame-24 {
+  align-items: center;
+  align-self: stretch;
+  width: 100%;
+  flex: 0 0 auto;
+  display: flex;
+  gap: 12px;
+}
+
+.home .title {
+  position: relative;
+  width: fit-content;
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #17191c;
+  font-size: 22px; /* Adjusted font size to match the photo */
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 0px; /* Reduced margin for closer spacing */
+}
+
+.home .text-description {
+  position: relative;
+  align-self: stretch;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400; /* Adjusted weight for better readability */
+  color: #17191c;
+  font-size: 16px; /* Adjusted font size to match the photo */
+  letter-spacing: 0;
+  line-height: 1.5; /* Improved line height for readability */
+  margin-top: -20px; /* Adjusted margin for better spacing */
+  text-align: left; /* Align text to the left */
+}
+
+.about-button {
+  display: inline-block;
+  padding: 10px 20px;
+  border-radius: 50px;
+  width: 190px;
+  border: 2px solid #ff5a5f;
+  color: #ff5a5f;
+  text-decoration: none;
+  transition: background 0.3s, color 0.3s;
+}
+
+.about-button:hover {
+  background: linear-gradient(135deg, #5D69BE, #C89FEB);
+  color: #fff;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .home .container-3.frame-21 {
+    padding: 20px; /* Adjust padding for smaller screens */
+  }
+
+  .home .title {
+    font-size: 20px; /* Smaller font size for mobile */
+  }
+
+  .home .text-description {
+    font-size: 14px; /* Smaller font size for mobile */
+  }
+}
+
+/* Modal Styles */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1000; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgba(0, 0, 0, 0.5); /* Black w/ opacity */
+}
+
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 94%; /* Could be more or less, depending on screen size */
+  max-width: 1300px; /* Max width */
+  border-radius: 18px; /* Rounded corners */
+}
+
+.map-container {
+  margin-top: 20px; /* Space above the map */
+  width: 100%; /* Full width */
+  height: auto; /* Auto height */
+}
+
+.map-container iframe {
+  width: 100%; /* Full width */
+  height: 300px; /* Fixed height */
+  border: 0; /* No border */
+}
+
+
+/* TAMPILAN WORK WITH US */
+.work-section {
+  display: flex; /* Changed to flex for better alignment */
+  flex-direction: column;
+  align-items: center; /* Center items */
+  gap: 40px; /* Adjusted gap */
+  padding: 25px; /* Adjusted padding */
+  background-color: #fd37531a;
+}
+
+.work-container {
+  display: flex;
+  justify-content: space-between; /* Align items to the start */
+  width: 100%;
+  gap: 20px;
+  border-radius: 26px;
+  padding: 80px; /* Adjusted padding */
+  
+}
+
+.work-text {
+  flex: 1;
+  margin-left: 0; /* Space between text and assessment */
+  width: 550px;
+}
+
+/* Media Queries for Responsiveness */
+@media (max-width: 768px) {
+  .work-container {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    padding: 20px; /* Adjust padding */
+  }
+
+  .work-text {
+    width: 100%; /* Full width on small screens */
+    text-align: center; /* Center text */
+  }
+
+  .work-assessment {
+    width: 100%; /* Full width on small screens */
+    max-width: 500px; /* Limit max width for better layout */
+    margin-top: 20px; /* Space above */
+  }
+
+  .text-wrapper-21,
+  .collaboration-for,
+  .text-wrapper-22 {
+    max-width: 90%; /* Limit width to prevent overflow */
+  }
+
+  .work-stats {
+    flex-direction: column; /* Stack stats vertically */
+    align-items: center; /* Center items */
+  }
+
+  .stat-item {
+    width: 100%; /* Full width for each stat item */
+    margin-bottom: 10px; /* Space between items */
+  }
+}
+
+@media (max-width: 480px) {
+  .text-wrapper-21 {
+    font-size: 20px; /* Smaller font size */
+  }
+
+  .collaboration-for {
+    font-size: 28px; /* Smaller font size */
+  }
+
+  .text-wrapper-22 {
+    font-size: 16px; /* Smaller font size */
+  }
+}
+
+
+/* Existing styles remain unchanged */
+.text-wrapper-21 {
+  position: relative;
+  align-self: stretch;
+  margin-top: -1px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #ce2038;
+  font-size: 22px;
+  letter-spacing: 0;
+  line-height: normal;
+  margin-bottom: 12px;
+}
+
+.collaboration-for {
+  width: 640px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-SemiBold", Helvetica;
+  font-weight: 600;
+  color: #17191c;
+  font-size: 60px;
+  letter-spacing: 0;
+  margin-bottom: 10px;
+}
+
+.text-wrapper-22 {
+  width: 640px;
+  top: 0;
+  left: 0;
+  font-family: "Poppins-Regular", Helvetica;
+  font-weight: 400;
+  color: #17191c;
+  font-size: 22px;
+  letter-spacing: 0;
+}
+
+.work-assessment {
+  flex: 0 0 auto; /* Allow flexibility */
+  background-color: #f5d2d7;
+  border-radius: 16px;
+  padding: 25px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+  display: flex; /* Added flex for alignment */
+  flex-direction: column; /* Stack elements vertically */
+  align-items: flex-start; /* Align items to the start */
+  max-width: 100%; /* Set a max width for the assessment card */
+}
+
+.frame-24 {
+  display: flex; /* Ensure buttons are displayed inline */
+  gap: 10px; /* Space between buttons */
+  margin-top: 10px; /* Space above buttons */
+}
+
+.group-7 {
+  width: 40px; /* Adjusted size for visibility */
+  height: 40px;
+  background-color: #ce2038; /* Ensure buttons are visible */
+  border-radius: 20px;
+}
+
+.group-6 {
+  width: 40px; /* Adjusted size for visibility */
+  height: 40px;
+  background-color: grey; /* Ensure buttons are visible */
+  border-radius: 20px;
+}
+
+.group-6 img, .group-7 img {
+  width: 35px; /* Adjusted icon size */
+  height: 40px;
+}
+
+.assessment-card {
+  display: flex;
+  flex-direction: column; /* Align items in a column */
+  align-items: flex-start; /* Align items to the start */
+  gap: 10px; /* Space between image and text */
+  width: 100%; /* Full width for the card */
+}
+
+.image-2 {
+  width: 100%; /* Fixed width for the image */
+  height: auto; /* Fixed height for the image */
+  max-width: 130px; /* Limit max width */
+}
+
+.assessment-info {
+  display: flex;
+  flex-direction: row; /* Align items in a row */
+  align-items: center; /* Center items vertically */
+  gap: 10px; /* Space between items */
+  margin-top: 10px; /* Space above */
+}
+
+.text-wrapper-23 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191c;
+  font-size: 18px;
+  margin-top: 10px; /* Space above */
+}
+
+.frame-33 {
+  margin-top: 5px; /* Space above */
+}
+
+.text-wrapper-24 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 700;
+  color: #17191c;
+  font-size: 24px; /* Adjusted font size for better visibility */
+  margin: 10px 0; /* Add margin for spacing */
+}
+
+.text-wrapper-25 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191c;
+  font-size: 14px;
+  margin: 10px 0; /* Add margin for spacing */
+  text-align: left; /* Center text */
+}
+
+
+
+.work-stats {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 20px; /* Space between assessment and stats */
+  margin-bottom: 20px;
+}
+
+.stat-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  flex: 1; /* Equal width for each stat item */
+}
+
+.image-3 {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+}
+
+.stat-info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+}
+
+.text-wrapper-26 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191c;
+  font-size: 14px;
+}
+
+/* TAMPILAN CONTACT */
+.home .frame {
+  display: flex;
+  flex-direction: column;
+  width: 100%; /* Changed to 100% for responsiveness */
+  max-width: 1260px; /* Max width for larger screens */
+  align-items: flex-start;
+  gap: 50px;
+  margin: 0 auto; /* Center the frame */
+  padding: 20px; /* Add padding for better spacing */
+}
+
+#contact {
+  margin-bottom: 60px; /* Adjust this value for desired spacing */
+}
+
+.home .frame-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 26px;
+  width: 100%;
+}
+
+.home .frame-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 8px;
+  width: 100%;
+}
+
+.home .text-wrapper {
+  font-weight: 600;
+  color: #ce2038;
+  font-size: 24px;
+  text-align: center;
+  font-family: "Poppins", Helvetica;
+}
+
+.home .get-schedule-with-us {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 24px;
+  text-align: center;
+}
+
+.home .frame-4 {
+  display: flex;
+  flex-direction: column; /* Stack items vertically */
+  align-items: center; /* Center items */
+  gap: 20px; /* Space between items */
+  width: 100%;
+}
+
+.home .frame-5 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%; /* Full width */
+}
+
+.home .group {
+  width: 60px;
+  height: 60px;
+  background-color: #17191c;
+  border-radius: 26px;
+  display: flex; /* Center the icon */
+  justify-content: center;
+  align-items: center;
+}
+
+.home .img {
+  width: 24px;
+  height: 24px;
+}
+
+.home .p {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191ccc;
+  font-size: 24px;
+  text-align: center; /* Center text */
+}
+
+.home .frame-wrapper {
+  width: 60px;
+  height: 60px;
+  background-color: #28a745;
+  border-radius: 26px;
+  display: flex; /* Center the icon */
+  justify-content: center;
+  align-items: center;
+}
+
+.home .text-wrapper-3 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191ccc;
+  font-size: 24px;
+  text-align: center; /* Center text */
+}
+
+.home .frame-6 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 26px;
+  width: 100%;
+}
+
+.home .frame-7 {
+  display: flex;
+  align-items: center;
+  gap: 18px;
+  width: 100%;
+}
+
+.home .frame-8 {
+  width: 64px;
+  height: 64px;
+}
+
+.home .leave-a-message {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #000000;
+  font-size: 46px;
+  text-align: center; /* Center text */
+}
+
+.home .frame-9 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 50px;
+  width: 100%;
+}
+
+.home .frame-10 {
+  display: flex;
+  align-items: center;
+  gap: 26px;
+  width: 100%;
+}
+
+.home .frame-11 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  flex: 1;
+}
+
+.home .text-wrapper-5 {
+  font-size: 16px;
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #17191c;
+}
+
+.home .overlap-group-wrapper {
+  width: 100%;
+  height: 48px;
+}
+
+.home .overlap-group {
+  width: 100%;
+  height: 48px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #00000080;
+  display: flex; /* Center the text */
+  align-items: center; /* Center vertically */
+  padding: 0 10px; /* Add padding for better spacing */
+}
+
+.home .text-wrapper-6 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 16px;
+}
+
+.home .frame-12 {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+  width: 100%;
+}
+
+.home .div-wrapper {
+  width: 100%;
+  height: 300px;
+}
+
+.home .overlap-group-2 {
+  width: 100%;
+  height: 300px;
+  background-color: #ffffff;
+  border-radius: 16px;
+  border: 1px solid #00000080;
+}
+
+.home .text-wrapper-8 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #00000080;
+  font-size: 16px;
+}
+
+.home .frame-13 {
+  display: flex;
+  width: 200px;
+  height: 60px;
+  align-items: center;
+  justify-content: center;
+  background-color: #ce2038;
+  border-radius: 16px;
+}
+
+.home .text-wrapper-9 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 600;
+  color: #ffffff;
+  font-size: 16px;
+}
+
+/* Centering input text */
+textarea {
+  width: 100%; /* Full width */
+  padding: 10px; /* Padding for better spacing */
+  border: 1px solid #00000080; /* Border color */
+  border-radius: 8px; /* Rounded corners */
+  font-family: "Poppins", Helvetica;
+  font-size: 16px; /* Font size */
+  color: #000; /* Text color */
+  box-sizing: border-box; /* Include padding in width */
+  resize: none; /* Prevent resizing */
+  height: 100px; /* Set a fixed height */
+  display: flex; /* Use flexbox for centering */
+  align-items: center; /* Center vertically */
+  justify-content: center; /* Center horizontally */
+}
+
+/* Placeholder styling */
+input::placeholder, textarea::placeholder {
+  color: #00000080; /* Placeholder color */
+  text-align: center; /* Center placeholder text */
+}
+
+.text-wrapper-8 {
+  text-align: center; /* Center text */
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .home .frame {
+    width: 100%; /* Full width on smaller screens */
+    padding: 10px; /* Adjust padding */
+  }
+
+  .home .text-wrapper {
+    font-size: 20px; /* Smaller font size */
+  }
+
+  .home .get-schedule-with-us {
+    font-size: 20px; /* Smaller font size */
+  }
+
+  .home .leave-a-message {
+    font-size: 36px; /* Smaller font size */
+  }
+
+  .home .frame-4 {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .home .frame-5 {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .home .p, .home .text-wrapper-3 {
+    font-size: 20px; /* Smaller font size */
+    text-align: center; /* Center text */
+  }
+
+  .home .frame-9 {
+    flex-direction: column; /* Stack items vertically */
+  }
+
+  .home .text-wrapper-5 {
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .home .text-wrapper-6, .home .text-wrapper-8 {
+    font-size: 14px; /* Smaller font size */
+  }
+
+  .home .frame-13 {
+    width: 150px; /* Adjust button width */
+  }
+}
+
+@media (max-width: 480px) {
+  .home .text-wrapper {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .home .get-schedule-with-us {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .home .leave-a-message {
+    font-size: 30px; /* Smaller font size */
+  }
+
+  .home .p, .home .text-wrapper-3 {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .home .frame-13 {
+    width: 120px; /* Adjust button width */
+  }
+}
+/* AKHIR TAMPILAN CONTACT */
+
+/* TAMPILAN FOOTER */
+.footer {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px 20px; /* Padding for spacing */
+  background-color: #f8f8f8; /* Background color */
+}
+
+.footer-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  max-width: 1200px; /* Max width for larger screens */
+  margin-bottom: 20px; /* Space between sections */
+}
+
+.image-4 {
+  width: 120px;
+  height: auto; /* Maintain aspect ratio */
+}
+
+.we-provide-a-range {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191c;
+  font-size: 18px;
+  line-height: 1.5; /* Improved line height */
+  margin: 20px 0; /* Margin for spacing */
+  overflow-wrap: break-word; /* Prevent overflow */
+}
+
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.footer-section {
+  display: flex;
+  flex-direction: column;
+  margin-right: 40px; /* Space between sections */
+}
+
+.text-wrapper-27 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 500;
+  color: #17191c;
+  font-size: 26px;
+  margin-bottom: 10px; /* Space below section title */
+}
+
+.text-wrapper-28, .text-wrapper-29 {
+  font-family: "Poppins", Helvetica;
+  font-weight: 400;
+  color: #17191ccc;
+  font-size: 18px;
+  margin: 5px 0; /* Space between links */
+}
+
+.footer-bottom {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #ce2038; /* Footer background color */
+  padding: 20px 0; /* Padding for spacing */
+}
+
+.text-wrapper-31 {
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  margin-right: 50px; /* Space between text and icons */
+  text-align: center;
+}
+
+.social-icons {
+  display: flex;
+  gap: 10px; /* Space between icons */
+}
+
+.frame-46 {
+  width: 24px;
+  height: 24px; /* Icon size */
+}
+
+.text-wrapper-32 {
+  font-family: "Roboto", Helvetica;
+  font-weight: 400;
+  color: #ffffff;
+  font-size: 14px;
+  text-align: right;
+  margin-left: 20px; /* Space between text and icons */
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+  .footer-content {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+    padding: 0 10px; /* Add padding to prevent text touching edges */
+  }
+
+  .we-provide-a-range {
+    text-align: center; /* Center text */
+    width: 100%; /* Full width */
+    max-width: 88%; /* Limit max width to prevent overflow */
+    overflow-wrap: break-word; /* Prevent overflow */
+    margin: 0 0 25px 0; /* Add margin for spacing */
+    font-size: 15px; /* Adjust font size for better readability */
+  }
+
+  .footer-links {
+    flex-direction: column; /* Stack links vertically */
+    align-items: center; /* Center items */
+    width: 100%; /* Full width */
+  }
+
+  .footer-section {
+    margin-right: 0; /* Remove right margin */
+    margin-bottom: 20px; /* Space between sections */
+    text-align: center; /* Center text */
+    max-width: 100%; /* Allow full width on smaller screens */
+  }
+
+  .text-wrapper-27 {
+    font-size: 20px; /* Adjust font size for better readability */
+  }
+
+  .text-wrapper-28, .text-wrapper-29 {
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .text-wrapper-30 {
+    font-size: 14px; /* Adjust font size for better readability */
+  }
+
+  .footer-bottom {
+    flex-direction: column; /* Stack items vertically */
+    align-items: center; /* Center items */
+  }
+
+  .text-wrapper-31 {
+    font-size: 12px; /* Smaller font size */
+    text-align: center; /* Center text */
+    margin-right: 0px;
+  }
+
+  .text-wrapper-32 {
+    font-size: 12px; /* Smaller font size */
+    text-align: center; /* Center text */
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-content {
+    padding: 10px; /* Adjust padding */
+  }
+
+  .we-provide-a-range {
+    font-size: 12px; /* Smaller font size */
+    max-width: 70%; /* Limit max width to prevent overflow */
+  }
+
+  .text-wrapper-27 {
+    font-size: 18px; /* Smaller font size */
+  }
+
+  .text-wrapper-28, .text-wrapper-29 {
+    font-size: 12px; /* Smaller font size */
+  }
+
+  .text-wrapper-30 {
+    font-size: 12px; /* Smaller font size */
+  }
+
+  .text-wrapper-31 {
+    font-size: 10px; /* Smaller font size */
+    margin-right: 0px;
+  }
+
+  .text-wrapper-32 {
+    font-size: 10px; /* Smaller font size */
+  }
+}
