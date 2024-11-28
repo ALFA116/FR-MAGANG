@@ -22,15 +22,15 @@
             <div class="about navbar-item"><a href="#our-journey">About</a></div>
             <div class="work navbar-item"><a href="#work">Work</a></div>
             <div class="product-solutions navbar-item dropdown">
-              <a href="#" class="dropbtn">Product &amp; Solutions <span class="arrow-down">▼</span></a>
-              <div class="dropdown-content">
+              <a href="#" class="dropbtn" id="dropdownToggle">Product &amp; Solutions <span class="arrow-down">▼</span></a>
+              <div class="dropdown-content" id="dropdownMenu">
                 <a href="ip-telephony-solution.php">IP Telephony Solution</a>
                 <a href="network-connectivity.php">Network &amp; Connectivity Solution</a>
                 <a href="design-testing.php">Design &amp; Testing</a>
                 <a href="other-services.php">Other IT Services</a>
               </div>
             </div>
-            <div class="magang navbar-item"><a href="#magang">Magang</a></div>
+            <div class="magang navbar-item"><a href="magang.php">Magang</a></div>
             <div class="contact navbar-item"><a href="#contact">Contact</a></div>
           </div>
         </div>
@@ -54,10 +54,11 @@
             <img class="group-81" src="../assets/vectors/group_81_x2.svg" />
             <img class="group-82" src="../assets/vectors/group_82_x2.svg" />
           </div>
-          <div class="group-84 d-flex justify-content-center align-items-center">
-            <div class="frame-14">
-              <img class="vector-15" src="../assets/vectors/vector_4_x2.svg" />
-            </div>
+          <!-- Floating WhatsApp Button -->
+          <div class="whatsapp-float" id="whatsappButton">
+            <a href="https://wa.me/your-number" target="_blank">
+              <img src="../assets/vectors/vector_4_x2.svg" alt="WhatsApp" class="vector-15" />
+            </a>
           </div>
         </div>
       </div>
@@ -224,42 +225,38 @@
         </div>
         <div class="row">
           <div class="col">
-
             <div class="work-stats">
               <div class="stat-item">
                 <img class="image-3" src="../assets/img/image-11.png" />
                 <div class="stat-info">
-                  <div class="text-wrapper-24">12+</div>
+                  <div class="text-wrapper-24 stat-number" data-target="12">0+</div>
                   <p class="text-wrapper-26">Telco Carriers and ISP Partners</p>
                 </div>
               </div>
               <div class="stat-item">
                 <img class="image-3" src="../assets/img/image-12.png" />
                 <div class="stat-info">
-                  <div class="text-wrapper-24">120+</div>
+                  <div class="text-wrapper-24 stat-number" data-target="120">0+</div>
                   <p class="text-wrapper-26">Project Done</p>
                 </div>
               </div>
               <div class="stat-item">
                 <img class="image-3" src="../assets/img/image-13.png" />
                 <div class="stat-info">
-                  <div class="text-wrapper-24">90+</div>
+                  <div class="text-wrapper-24 stat-number" data-target="90">0+</div>
                   <p class="text-wrapper-26">Corporate Clients</p>
                 </div>
               </div>
               <div class="stat-item">
                 <img class="image-3" src="../assets/img/image-14.png" />
                 <div class="stat-info">
-                  <div class="text-wrapper-24">0+</div>
+                  <div class="text-wrapper-24 stat-number" data-target="0">0+</div>
                   <p class="text-wrapper-26">Pending Project</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
-
-
     </section>
 
     <!-- Tampilan Our Contact -->
@@ -269,13 +266,13 @@
           <div class="frame-3">
             <div class="text-wrapper">OUR CONTACT</div>
             <p class="get-schedule-with-us">
-              <span class="span">Get Schedule</span> <span class="text-wrapper-2"> with Us.</span>
+              <span class="span"><strong>Get Schedule</strong></span> <span class="text-wrapper-2"> with Us.</span>
             </p>
           </div>
           <div class="frame-4">
             <div class="frame-5">
               <div class="group"><img class="img" src="../assets/img/frame.svg" /></div>
-              <p class="p">Jl. Guntur No.20C, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514</p>
+              <p6 class="p6">Jl. Guntur No.20C, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514</p6>
             </div>
             <div class="frame-5">
               <div class="frame-wrapper"><img class="img" src="../assets/img/frame-1.svg" /></div>
@@ -285,7 +282,7 @@
         </div>
         <div class="frame-6">
           <div class="frame-7">
-            <img class="frame-8" src="../assets/img/frame-2.svg" />
+            <img class="frame-89" src="../assets/img/frame-2.svg" />
             <p class="leave-a-message">
               <span class="span">Leave </span> <span class="text-wrapper-4">A Message.</span>
             </p>
@@ -294,28 +291,22 @@
             <div class="frame-6">
               <div class="frame-10">
                 <div class="frame-11">
-                  <div class="text-wrapper-5">Name</div>
+                  <label class="text-wrapper-5" for="name">Name</label>
                   <div class="overlap-group-wrapper">
-                    <div class="overlap-group">
-                      <div class="text-wrapper-6">Full Name</div>
-                    </div>
+                    <input type="text" id="name" class="overlap-group" placeholder="Full Name">
                   </div>
                 </div>
                 <div class="frame-11">
-                  <div class="text-wrapper-5">Email</div>
+                  <label class="text-wrapper-5" for="email">Email</label>
                   <div class="overlap-group-wrapper">
-                    <div class="overlap-group">
-                      <div class="text-wrapper-7">Enter Your Email</div>
-                    </div>
+                    <input type="email" id="email" class="overlap-group" placeholder="Enter Your Email">
                   </div>
                 </div>
               </div>
               <div class="frame-12">
-                <div class="text-wrapper-5">Your Message</div>
+                <label class="text-wrapper-5" for="message">Your Message</label>
                 <div class="div-wrapper">
-                  <div class="overlap-group-2">
-                    <div class="text-wrapper-8">Enter Your Message...</div>
-                  </div>
+                  <textarea id="message" class="overlap-group-2" placeholder="Enter Your Message..."></textarea>
                 </div>
               </div>
             </div>
@@ -335,9 +326,9 @@
           <img class="image-4" src="../assets/img/image-6-1.png" alt="Logo" />
           <div class="footer-info">
             <p class="we-provide-a-range">
-              We provide a range of IT and telecommunication services consisting of telecomm consultancy, SIP Trunk
-              provider, Call Center Solution, LAN Setup.<br />We do the concept, technical design, and implementation
-              that fits customers&#39; need both effective cost-efficient.
+              We provide a range of IT and telecommunication services consisting of telecomm consultancy, SIP Trunk<br>
+              provider, Call Center Solution, LAN Setup.We do the concept, technical design, and implementation that<br>
+              fits customers&#39; need both effective cost-efficient.
             </p>
             <div class="footer-links">
               <div class="footer-section">
@@ -360,7 +351,7 @@
                 <div class="text-wrapper-27">PT. Meissa Berkah Teknologi</div>
                 <div class="frame-6">
                   <p class="text-wrapper-30">Jl. Guntur No.20C, Limo, Kec. Limo, Kota Depok, Jawa Barat 16514</p>
-                  <div class="text-wrapper-22">+6285972510714</div>
+                  <div class="text-wrapper-220">+6285972510714</div>
                 </div>
               </div>
             </div>
@@ -368,7 +359,6 @@
         </div>
 
         <!-- TAMPILAN FOOTER MENGAMBANG -->
-        <img class="group-8" src="../assets/img/group-78.png" alt="Group" />
         <div class="footer-bottom">
           <p class="text-wrapper-31">Copyright@2024. First-Routes Web Team All Rights Reserved.</p>
           <div class="social-icons">
@@ -379,11 +369,24 @@
           </div>
           <div class="text-wrapper-32">Akun media sosial kami</div>
         </div>
-      </div>
     </section>
 
 
     <script>
+      document.getElementById('dropdownToggle').addEventListener('click', function(event) {
+        event.preventDefault(); // Prevent default anchor behavior
+        const dropdownMenu = document.getElementById('dropdownMenu');
+        dropdownMenu.style.display = dropdownMenu.style.display === 'block' ? 'none' : 'block';
+      });
+
+      // Optional: Close the dropdown if clicking outside of it
+      window.addEventListener('click', function(event) {
+        const dropdownMenu = document.getElementById('dropdownMenu');
+        if (!event.target.matches('#dropdownToggle') && dropdownMenu.style.display === 'block') {
+          dropdownMenu.style.display = 'none';
+        }
+      });
+
       // Get modal element
       const modal = document.getElementById("aboutUsModal");
       const aboutUsButton = document.getElementById("aboutUsButton");
@@ -407,7 +410,54 @@
         }
       });
 
-     
+      let hasAnimated = false;
+
+      function animateNumbers() {
+        const statNumbers = document.querySelectorAll('.stat-number');
+        statNumbers.forEach(stat => {
+          const target = +stat.getAttribute('data-target');
+          let count = 0;
+          const increment = Math.ceil(target / 215); // Adjust speed of animation
+
+          const updateCount = () => {
+            if (count < target) {
+              count += increment;
+              stat.textContent = count + '+';
+              setTimeout(updateCount, 35); // Adjust interval time
+            } else {
+              stat.textContent = target + '+';
+            }
+          };
+
+          updateCount();
+        });
+      }
+
+      window.addEventListener('scroll', () => {
+        const statsSection = document.querySelector('.work-stats');
+        const sectionPosition = statsSection.getBoundingClientRect().top;
+        const screenPosition = window.innerHeight;
+
+        if (!hasAnimated && sectionPosition < screenPosition) {
+          animateNumbers();
+          hasAnimated = true; // Ensure animation only happens once
+        }
+      });
+
+      window.onscroll = function() {
+        const footer = document.querySelector('.footer-bottom');
+        if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
+          footer.style.backgroundColor = "#b22222"; // Change color on scroll
+        } else {
+          footer.style.backgroundColor = "#ce2038"; // Original color
+        }
+      };
+
+      window.onscroll = function() {
+        var button = document.getElementById("whatsappButton");
+        // Keep the button fixed at the same position
+        button.style.bottom = "185px"; // Maintain the position above the footer
+      };
     </script>
 
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
